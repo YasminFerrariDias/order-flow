@@ -1,0 +1,17 @@
+menu = [
+  {"id": 1, "name": "X-Burguer", "price": 34.90, "category": "Lanches"},
+  {"id": 2, "name": "X-Bacon", "price": 39.90, "category": "Lanches"},
+  {"id": 3, "name": "X-Frango", "price": 32.90, "category": "Lanches"},
+  {"id": 4, "name": "Pizza Margherita", "price": 49.90, "category": "Pizzas"},
+  {"id": 5, "name": "Pizza Calabresa", "price": 52.90, "category": "Pizzas"},
+  {"id": 6, "name": "Frango Grelhado", "price": 42.90, "category": "Pratos Principais"},
+  {"id": 7, "name": "Filé à Parmegiana", "price": 58.90, "category": "Pratos Principais"},
+  {"id": 8, "name": "Macarrão ao Molho", "price": 36.90, "category": "Pratos Principais"},
+  {"id": 9, "name": "Batata Frita", "price": 18.90, "category": "Acompanhamentos"},
+  {"id": 10, "name": "Onion Rings", "price": 21.90, "category": "Acompanhamentos"},
+  {"id": 11, "name": "Refrigerante", "price": 8.90, "category": "Bebidas"},
+  {"id": 12, "name": "Suco de Laranja", "price": 12.90, "category": "Bebidas"},
+  {"id": 13, "name": "Água Mineral", "price": 5.90, "category": "Bebidas"},
+  {"id": 14, "name": "Pudim", "price": 16.90, "category": "Sobremesas"},
+  {"id": 15, "name": "Sorvete 2 Bolas", "price": 14.90, "category": "Sobremesas"},
+]
