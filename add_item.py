@@ -1,6 +1,9 @@
 import menu
 
+
+
 def adicionarItem():
+  quantidade = None
   item_encontrado = None
     
   while item_encontrado is None:
@@ -13,3 +16,10 @@ def adicionarItem():
         
     if item_encontrado is None:
       print("Código inválido, tente novamente.")
+      
+  while quantidade is None or quantidade <= 0:
+    quantidade = int(input("Qual a quantidade? "))
+  
+    if quantidade <= 0:
+      print("Quantidade inválida, tente novamente.")
+      quantidade = None
