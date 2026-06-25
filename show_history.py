@@ -3,7 +3,7 @@ import history
 def show_history():
   if len(history.history) == 0:
     print("Nenhum pedido foi finalizado ainda.")
-    return
+    return False
 
   print("\n===== HISTÓRICO DE PEDIDOS =====")
 
@@ -17,3 +17,4 @@ def show_history():
     print(f"  Pagamento: {order_record['payment']['forma']}")
 
   print("=================================\n")
+  return True

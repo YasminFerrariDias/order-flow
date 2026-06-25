@@ -1,6 +1,10 @@
 import order
 
 def calculate_order():
+  if order.order == []:
+    print("Nenhum item no pedido.")
+    return 0
+
   total = 0
 
   for item in order.order:
@@ -11,8 +15,8 @@ def calculate_order():
     print("Desconto de 5% aplicado (pedido acima de R$100)!")
 
   resposta = input("Deseja incluir taxa de serviço de 10%? (s/n): ")
-  
+
   if resposta.lower() == "s":
     total = total * 1.10
-    
+
   return total
