@@ -1,7 +1,7 @@
 import order
 import history
 from calculate_order import calculate_order
-from process_payment import process_payment
+from payment_methods import payment_methods
 
 def finish_order():
   if len(order.order) == 0:
@@ -9,7 +9,7 @@ def finish_order():
     return False
 
   total = calculate_order()
-  payment = process_payment(total)
+  payment = payment_methods(total)
 
   print("\n----- COMPROVANTE -----")
 

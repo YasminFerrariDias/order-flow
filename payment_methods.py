@@ -1,4 +1,4 @@
-def process_payment(total):
+def payment_methods(total):
   payment_method = None
 
   while payment_method not in ["dinheiro", "cartao", "pix"]:
